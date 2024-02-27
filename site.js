@@ -19,3 +19,5 @@ if (isMorning) {
 
 const h1Element = welcomeElement.querySelector('h1'); // AI Generated
 h1Element.innerHTML = `<h1>${h1Text}</h1>`; // AI Generated
+
+localStorage.setItem("It's a secret to everybody.", "I lovee coding!");
